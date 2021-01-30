@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
+<!-- This is a hand-edited keyboard layout file. If you try to edit it in a keyboard layout program, the file will become disorganized, and the comments will no longer make sense. -->
+<!-- 
+This is free and unencumbered software released into the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
+
+In jurisdictions that recognize copyright laws, the author or authors
+of this software dedicate any and all copyright interest in the
+software to the public domain. We make this dedication for the benefit
+of the public at large and to the detriment of our heirs and
+successors. We intend this dedication to be an overt act of
+relinquishment in perpetuity of all present and future rights to this
+software under copyright law.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+For more information, please refer to <http://unlicense.org>
+
+-->
+
+<keyboard group="126" id="-878" name="basicDVORAK - Scottish Gaelic - NoCaps">
+	<!-- version 0.86. We do not put the version in the name because it adds extra steps when upgrading the layout.  -->
+	<layouts>
+		<layout first="0" last="0" modifiers="commonModifiers" mapSet="ISO_or_ANSI"/>
+	</layouts>
+	<modifierMap id="commonModifiers" defaultIndex="0">
+		<keyMapSelect mapIndex="0">
+			<modifier keys=""/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="1">
+			<modifier keys="shift"/>
+		</keyMapSelect>
+	</modifierMap>
+	<keyMapSet id="ISO_or_ANSI">
+		<keyMap index="0" baseMapSet="ISO_or_ANSI" baseIndex="2">
+		<!-- Top left key of ISO keyboard only (key code 10) -->
+			<key code="10" output="§"/>
+
+		<!-- Top row, from left to right on ANSI Keyboard -->
+			<key code="50" output="`"/> <!-- This key with key code 50 is three two rows below on the ISO keyboard, but is on the number row on the ANSI keyboard. -->
+			<key code="18" output="1"/>
+			<key code="19" output="2"/>
+			<key code="20" output="3"/>
+			<key code="21" output="4"/>
+			<key code="23" output="5"/>
+			<key code="22" output="6"/>
+			<key code="26" output="7"/>
+			<key code="28" output="8"/>
+			<key code="25" output="9"/>
+			<key code="29" output="0"/>
+			<key code="27" output="["/>
+			<key code="24" output="]"/>
+
+		<!-- Second row from top, from left to right -->
+			<key code="12" output="&#39;"/> <!-- Single quote -->
+			<key code="13" output=","/>
+			<key code="14" output="."/>
+			<key code="15" output="p"/>
+			<key code="17" output="y"/>
+			<key code="16" output="f"/>
+			<key code="32" output="g"/>
+			<key code="34" output="c"/>
+			<key code="31" output="r"/>
+			<key code="35" output="l"/>
+			<key code="33" action="graveAccentAction"/>
+			<key code="30" output="="/>
+			<key code="42" output="\"/>
+
+		<!-- Third row from top, from left to right -->
+			<key code="0">
+				<action>
+					<when state="none" output="a"/>
+					<when state="graveAccentState" output="à"/>
+				</action>
+			</key>
+			<key code="1">
+				<action>
+					<when state="none" output="o"/>
+					<when state="graveAccentState" output="ò"/>
+				</action>
+			</key>
+			<key code="2">
+				<action>
+					<when state="none" output="e"/>
+					<when state="graveAccentState" output="è"/>
+				</action>
+			</key>
+			<key code="3">
+				<action>
+					<when state="none" output="u"/>
+					<when state="graveAccentState" output="ù"/>
+				</action>
+			</key>
+			<key code="5">
+				<action>
+					<when state="none" output="i"/>
+					<when state="graveAccentState" output="ì"/>
+				</action>
+			</key>
+			<key code="4" output="d"/>
+			<key code="38" output="h"/>
+			<key code="40" output="t"/>
+			<key code="37" output="n"/>
+			<key code="41" output="s"/>
+			<key code="39" output="-"/>
+
+		<!-- Fourth row from top, from left to right -->
+			<key code="6" output=";"/>
+			<key code="7" output="q"/>
+			<key code="8" output="j"/>
+			<key code="9" output="k"/>
+			<key code="11" output="x"/>
+			<key code="45" output="b"/>
+			<key code="46" output="m"/>
+			<key code="43" output="w"/>
+			<key code="47" output="v"/>
+			<key code="44" output="z"/>
+
+		<!-- Number pad -->
+			<!-- first or top row of numpad-->
+			<key code="71" output="&#x001B;"/>
+			<key code="81" output="="/>
+			<key code="75" output="/"/>
+			<key code="67" output="*"/>
+
+			<!-- Second row of numpad-->
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="78" output="-"/>
+
+			<!-- third row of numpad -->
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="69" output="+"/>
+
+			<!-- fourth row of numpad -->
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="76" output="&#x0003;"/>
+			<!-- Bottom row of numpad-->
+			<key code="82" output="0"/>
+			<key code="65" output="."/>
+		</keyMap>
+		<keyMap index="1" baseMapSet="ISO_or_ANSI" baseIndex="2">
+		<!-- When the user holds down shift this is what happens -->
+
+		<!-- Top left key of ISO keyboard only (key code 10) -->
+			<key code="10" output="±"/>
+
+		<!-- Top row, from left to right on ANSI Keyboard -->
+			<key code="50" output="~"/> <!-- This key with key code 50 is three two rows below on the ISO keyboard, but is on the number row on the ANSI keyboard. -->
+			<key code="18" output="!"/>
+			<key code="19" output="@"/>
+			<key code="20" output="#"/>
+			<key code="21" output="$"/>
+			<key code="23" output="%"/>
+			<key code="22" output="^"/>
+			<key code="26" output="&#38;"/> <!-- the output is the ampersand -->
+			<key code="28" output="*"/>
+			<key code="25" output="("/>
+			<key code="29" output=")"/>
+			<key code="27" output="{"/>
+			<key code="24" output="}"/>
+
+		<!-- Second row from top, from left to right -->
+			<key code="12" output="&#34;"/> <!-- the output is the double quote -->
+			<key code="13" output="&#60;"/> <!-- the output is the less than sign -->
+			<key code="14" output="&#62;"/> <!-- the output is the greater than sign -->
+			<key code="15" output="P"/>
+			<key code="17" output="Y"/>
+			<key code="16" output="F"/>
+			<key code="32" output="G"/>
+			<key code="34" output="C"/>
+			<key code="31" output="R"/>
+			<key code="35" output="L"/>
+			<key code="33" output="?"/>
+			<key code="30" output="+"/>
+			<key code="42" output="|"/>
+
+		<!-- Third row from top, from left to right -->
+			<key code="0">
+				<action>
+					<when state="none" output="A"/>
+					<when state="graveAccentState" output="À"/>
+				</action>
+			</key>
+			<key code="1">
+				<action>
+					<when state="none" output="O"/>
+					<when state="graveAccentState" output="Ò"/>
+				</action>
+			</key>
+			<key code="2">
+				<action>
+					<when state="none" output="E"/>
+					<when state="graveAccentState" output="È"/>
+				</action>
+			</key>
+			<key code="3">
+				<action>
+					<when state="none" output="U"/>
+					<when state="graveAccentState" output="Ù"/>
+				</action>
+			</key>
+			<key code="5">
+				<action>
+					<when state="none" output="I"/>
+					<when state="graveAccentState" output="Ì"/>
+				</action>
+			</key>
+			<key code="4" output="D"/>
+			<key code="38" output="H"/>
+			<key code="40" output="T"/>
+			<key code="37" output="N"/>
+			<key code="41" output="S"/>
+			<key code="39" output="_"/>
+
+		<!-- Fourth row from top, from left to right -->
+			<key code="6" output=":"/>
+			<key code="7" output="Q"/>
+			<key code="8" output="J"/>
+			<key code="9" output="K"/>
+			<key code="11" output="X"/>
+			<key code="45" output="B"/>
+			<key code="46" output="M"/>
+			<key code="43" output="W"/>
+			<key code="47" output="V"/>
+			<key code="44" output="Z"/>
+
+		<!-- Number pad -->
+			<!-- first or top row of numpad-->
+			<key code="71" output="&#x001B;"/>
+			<key code="81" output="="/>
+			<key code="75" output="/"/>
+			<key code="67" output="*"/>
+
+			<!-- Second row of numpad-->
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="78" output="-"/>
+
+			<!-- third row of numpad -->
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="69" output="+"/>
+
+			<!-- fourth row of numpad -->
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="76" output="&#x0003;"/>
+			<!-- Bottom row of numpad-->
+			<key code="82" output="0"/>
+			<key code="65" output="."/>
+		</keyMap>
+		<keyMap index="2">
+			<!-- This keymap supports proper function of the tab key, the arrow keys, and other important control keys. -->
+			<!-- You probably do not want to edit these -->
+			<!-- Top row, Esc, and function keys like F1, F2 -->
+			<key code="53" output="&#x001B;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+
+			<!-- Tab key -->
+			<key code="48" output="&#x0009;"/>
+
+			<!-- Enter key -->
+			<key code="36" output="&#x000D;"/>
+
+			<!-- Space bar -->
+			<key code="49" output=" "/>
+
+			<!-- backspace -->
+			<key code="51" output="&#x0008;"/>
+
+
+			<!-- keys above arrow keys: Home, End Page Down, etc. -->
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="121" output="&#x000C;"/>
+
+
+			<key code="71" output="&#x001B;"/>
+			<key code="64" output="&#x0010;"/>
+			<key code="66" output="&#x001D;"/>
+			<key code="70" output="&#x001C;"/>
+			<key code="72" output="&#x001F;"/>
+			<key code="77" output="&#x001E;"/>
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+
+			<!-- Number pad's Enter key: -->
+			<key code="76" output="&#x0003;"/>
+
+			<!-- Arrow keys -->
+			<key code="126" output="&#x001E;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="124" output="&#x001D;"/>
+		</keyMap>
+	</keyMapSet>
+	<!-- The following is the actions section it is necessary in order to implement dead keys. Dead keys are combinations of characters pressed in sequence that have a special output. -->
+	<actions>
+		<action id="graveAccentAction">
+			<when state="none" next="graveAccentState"/>
+			<!-- when the state is none the graveAccentAction action changes the state to the graveAccentState state. -->
+		</action>
+	</actions>
+	<!-- The following is the terminators section. It tells what the output should be when a key that is not defined is pressed after a dead key. -->
+	<terminators>
+		<when state="graveAccentState" output="/"/>
+	</terminators>
+</keyboard>

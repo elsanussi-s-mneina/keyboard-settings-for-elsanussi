@@ -1,0 +1,14 @@
+* Last edited on January 29, 2020
+
+* changes so that a software layout of dvorak is equivalent to the hardware layout.
+* here we change the hardware layout.
+* This is useful for people who rarely use the Kinesis hardware layout of DVORAK, but 
+* use Dvorak software layout while on hardware Qwerty of Kinesis. These changes should
+* remove the differences.
+
+[=]>[cbrack]
+[cbrack]>[=]
+[hyphen]>[obrack]
+[obrack]>[/]
+[/]>[\]
+[\]>[hyphen]
