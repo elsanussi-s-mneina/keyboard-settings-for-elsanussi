@@ -154,6 +154,15 @@ For more information, please refer to <http://unlicense.org>
 			<!-- Bottom row of numpad-->
 			<key code="82" output="0"/>
 			<key code="65" output="."/>
+			
+		<!-- Space bar -->
+			<key code="49">
+				 <action>
+					<when state="none" output=" "/>
+					<when state="acuteAccentState" output="/"/>
+				</action> 
+			</key>
+
 		</keyMap>
 		<keyMap index="1" baseMapSet="ISO_or_ANSI" baseIndex="2">
 		<!-- When the user holds down shift this is what happens -->
@@ -268,6 +277,15 @@ For more information, please refer to <http://unlicense.org>
 			<!-- Bottom row of numpad-->
 			<key code="82" output="0"/>
 			<key code="65" output="."/>
+
+		<!-- Space bar -->
+			<key code="49">
+				 <action>
+					<when state="none" output=" "/>
+					<when state="acuteAccentState" output="/"/>
+				</action> 
+			</key>
+
 		</keyMap>
 		<keyMap index="2">
 			<!-- This keymap supports proper function of the tab key, the arrow keys, and other important control keys. -->
