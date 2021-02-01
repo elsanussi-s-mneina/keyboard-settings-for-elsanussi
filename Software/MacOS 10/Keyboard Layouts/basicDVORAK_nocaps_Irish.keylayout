@@ -39,7 +39,7 @@ For more information, please refer to <http://unlicense.org>
 			<modifier keys=""/>
 		</keyMapSelect>
 		<keyMapSelect mapIndex="1">
-			<modifier keys="shift"/>
+			<modifier keys="shift caps?"/>
 		</keyMapSelect>
 	</modifierMap>
 	<keyMapSet id="ISO_or_ANSI">
