@@ -12,3 +12,7 @@
 [\]>[obrack]
 [']>[\]
 
+* I need the alt key closer because I use it often to type international characters.
+* For some reason The original position is uncomfortable for my hand.
+[`]>[lalt]
+[lalt]>[`]
