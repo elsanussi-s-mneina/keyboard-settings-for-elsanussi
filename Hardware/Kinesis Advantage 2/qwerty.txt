@@ -1,0 +1,9 @@
+* Last edited on February 11, 2020
+* This makes using a Dvorak keyboard layout while on the hardware QWERTY setting, 
+* match like the Kinesis Dvorak was designed to be.
+
+[=]>[cbrack]
+[obrack]>[hyphen]
+[cbrack]>[=]
+[hyphen]>[']
+[\]>[obrack]
