@@ -1,9 +1,14 @@
-* Last edited on February 11, 2020
+* Last edited on February 12, 2020
 * This makes using a Dvorak keyboard layout while on the hardware QWERTY setting, 
 * match like the Kinesis Dvorak was designed to be.
 
+* In more detail:
+* The following make the Hardware QWERTY layout equivalent to the Hardware DVORAK layer.
+* I do these changes because I set the keyboard layout on my operating system to Dvorak rather than on the Kinesis Advantage 2. The reason for this is that way I do not have to switch to Dvorak every time I type in Arabic. For those who don't know, the Arabic PC keyboard layout has no relation to Dvorak and Qwerty, so using a hardware Dvorak setting would simply scramble the keys for no good reason and make it too difficult to type.
 [=]>[cbrack]
 [obrack]>[hyphen]
 [cbrack]>[=]
 [hyphen]>[']
 [\]>[obrack]
+[']>[\]
+
